@@ -1,6 +1,10 @@
-@font-face {
-    font-family: "Optima";
-    src: url("../fonts/OPTIMA.ttf") format("truetype");
+@font-face{ 
+	font-family: 'Optima';
+	src: url('../fonts/optima-webfont.eot');
+	src: url('../fonts/optima-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/optima-webfont.woff') format('woff'),
+	     url('../fonts/optima-webfont.ttf') format('truetype'),
+	     url('../fonts/optima-webfont.svg#webfont') format('svg');
 }
 
 .navigation-bar {
